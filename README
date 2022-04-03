@@ -1,0 +1,20 @@
+©Butilca Rares
+
+#Definition
+This is a simulation of a database for a streaming application. This project also implements some of
+the application actions that influence the database that is simulated. The actions of the users that
+involve the database are:
+
+ * commands -> mark as favorite, view, rate, etc;
+ * queries -> search by filters;
+ * recommendations -> ask the application for a recommendation
+
+#Entry-point
+The main class for the database is main/Database.java, but it does not contain an actual entry-point
+to a program. The class main/Main.java implements an entrypoint for testing the functionality of the
+simulation.
+
+#Run
+The program reads input from a JSON and writes the output into another. The entry-point implemented
+for testing will require a certain input from the user - the name of the input file which will be
+looked up in the test_db/test_files directory.
