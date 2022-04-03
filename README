@@ -1,6 +1,6 @@
 ©Butilca Rares
 
-#Definition
+#Introduction
 This is a simulation of a database for a streaming application. This project also implements some of
 the application actions that influence the database that is simulated. The actions of the users that
 involve the database are:
